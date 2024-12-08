@@ -382,4 +382,213 @@ section {
             }
         } 
     }
+    .section-two {
+        
+        
+        h1 {
+            text-align: center;
+            font-size: 35px;
+            color: #0B132A;
+            margin-top: 150px;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 16px;
+            font-weight: 300;
+            color: #4F5665;
+
+            span {
+                @include fonts-700;
+            }
+        }
+
+        .card-servis{
+            margin-left: 205px;
+
+            img {
+                width: 1060px;
+                height: 537.77px;
+                margin: 155.81px 0 0 189.14px;
+            }
+
+            .img-sponsor {
+                width: 1135.64px;
+                height: 208.32px;
+                margin: 6.45px 0 50px 144.14px;
+            }
+        }
+
+            
+    }
+
+
+    .position {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 340px;
+        top: 3297px;
+        bottom: 1px;
+        left: 300px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        width: 1140px;
+        height: 233px;
+
+        .sect1 {
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                font-size: 35px;
+                @include fonts-700;
+                color: #0B132A;
+            }
+
+            h4 {
+                color: #4F5665;
+                font-weight: 300;
+                font-size: 16px;
+
+            }
+        }
+
+        .sect2 {
+                display: flex;
+                flex-direction: column;
+
+                button {
+                    background-color: #F53838;
+                    color: #FFFFFF;
+                    align-self: flex-start;
+                    font-weight: 700;
+                    font-size: 16px;
+                    padding: 17.5px 77.5px;
+                    margin-top: 86.5px;
+                    border-radius: 10px;
+                    box-shadow: 18px 34px 52px -8px rgba(245, 56, 56, 0.40);
+                }
+        }
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 180px 150px 100px 150px;
+    background: #F8F8F8;
+
+    .post1 {
+        display: flex;
+        flex-direction: column;
+
+        .logo {
+            display: flex;
+            gap: 6.12px;
+    
+            img {
+                width: 35px;
+                height: 36.23px;
+            }
+        
+            h1 {
+                width: 104px;
+                height: 24px;
+                font-weight: 600;
+                font-size: 20px;
+    
+                span {
+                    @include fonts-700;
+                }
+            }
+        }
+
+        h6 {
+            font-size: 14px;
+            font-weight: 200;
+            color: #4F5665;
+
+            span {
+                @include fonts-700;
+            }
+        }
+
+        .icon {
+            display: flex;
+            flex-direction: row;
+
+            img {
+                height: 60px;
+                width: 60px;
+            }
+        }
+
+        h4 {
+            color: #4F5665;
+            font-size: 10px;
+            margin-bottom: 141.41px;
+        }
+    }
+
+    .post2 {
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-size: 16px;
+            width: 71px;
+            height: 30px;
+
+        }
+
+        h4 {
+            font-weight: 300;
+            font-size: 14px;
+            color: #4F5665;
+            width: 74px;
+            height: 30px;
+
+        }
+    }
+
+    .post3 {
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-size: 16px;
+            width: 71px;
+            height: 30px;
+        }
+
+        h4 {
+            font-weight: 300;
+            font-size: 14px;
+            color: #4F5665;
+            width: 74px;
+            height: 30px;
+        }
+    }
+
+    .post3 {
+        display: flex;
+        flex-direction: column;
+        h1 {
+            font-size: 16px;
+            width: 71px;
+            height: 30px;
+        }
+        h4 {
+            font-weight: 300;
+            font-size: 14px;
+            color: #4F5665;
+            width: 74px;
+            height: 30px;
+        }
+    }
 }
