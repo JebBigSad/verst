@@ -348,50 +348,74 @@ section .section-two .card-servis .img-sponsor {
   height: 208.32px;
   margin: 6.45px 0 50px 144.14px;
 }
-section .position {
-  position: absolute;
+section .head {
+  font-size: 35px;
+  margin-top: 80.27px;
+  text-align: center;
+}
+section .card-back {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  gap: 340px;
-  top: 3297px;
+  top: 297px;
   bottom: 1px;
   left: 300px;
   border-radius: 10px;
   background-color: #FFFFFF;
-  width: 1140px;
-  height: 233px;
+  width: 450px;
+  height: 200px;
+  border: 2px solid #DDDDDD;
 }
-section .position .sect1 {
+section .card-back:hover {
+  border: 2px solid #F53838;
+}
+section .card-back .seting {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
-section .position .sect1 h1 {
-  font-size: 35px;
+section .card-back .seting .name {
+  display: flex;
+}
+section .card-back .seting .name .user-name {
+  flex-direction: column;
+  margin: none;
+  padding: 0;
+}
+section .card-back .seting .name img {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+section .card-back .seting .name .fix-star {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 15px;
+}
+section .card-back .seting .name .fix-star .star {
+  height: 20px;
+  width: 20px;
+  margin-left: 8px;
+  margin-top: 0;
+}
+section .card-back .seting .name .text {
+  line-height: 3;
+}
+section .card-back .seting h1 {
+  font-size: 25px;
   font-family: "Rubik-bold", "Arial", sans-serif;
   font-weight: 700;
   color: #0B132A;
+  margin-top: 10px;
+  margin-bottom: 2px;
 }
-section .position .sect1 h4 {
+section .card-back .seting h3 {
   color: #4F5665;
   font-weight: 300;
   font-size: 16px;
-}
-section .position .sect2 {
-  display: flex;
-  flex-direction: column;
-}
-section .position .sect2 button {
-  background-color: #F53838;
-  color: #FFFFFF;
-  align-self: flex-start;
-  font-weight: 700;
-  font-size: 16px;
-  padding: 17.5px 77.5px;
-  margin-top: 86.5px;
-  border-radius: 10px;
-  box-shadow: 18px 34px 52px -8px rgba(245, 56, 56, 0.4);
+  margin-top: 2px;
 }
 
 footer {
