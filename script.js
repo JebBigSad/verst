@@ -163,6 +163,7 @@ console.log(getJustNumber(5))
 console.log(getJustNumber(6))
 
 
+
 console.log('задача 2.2')
 console.log(' ')
 
