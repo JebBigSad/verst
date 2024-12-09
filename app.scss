@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Rubik-normal';
     font-weight: 400;
-    src: url(assets/Rubik-Light.ttf);
+    src: url(assets/Rubik-Regular.ttf);
 }
 
 @font-face {
@@ -202,6 +202,7 @@ main {
              img {
                 height: 55px;
                 width: 55px;
+                margin-bottom: 20px;
              }
              h1 {
                 font-size: 25px;
@@ -274,6 +275,7 @@ main {
 section {
     background-color: #fcfcfc;
     position: relative;
+    width: 100%;
 
     .head {
         display: flex;
@@ -478,14 +480,15 @@ section {
 footer {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 180px 150px 100px 150px;
+    gap: 60px;
+    padding: 180px 0 100px 360px;
     background: #F8F8F8;
+    width: 100%;
 
-    .post1 {
+    .last-informaition {
         display: flex;
         flex-direction: column;
+        margin-right: 200px;
 
         .logo {
             display: flex;
@@ -494,6 +497,7 @@ footer {
             img {
                 width: 35px;
                 height: 36.23px;
+                margin-top: 7px;
             }
         
             h1 {
@@ -525,6 +529,7 @@ footer {
             img {
                 height: 60px;
                 width: 60px;
+                
             }
         }
 
@@ -535,14 +540,14 @@ footer {
         }
     }
 
-    .post2 {
+    .question-list-1 {
         display: flex;
         flex-direction: column;
 
         h1 {
             font-size: 16px;
-            width: 71px;
-            height: 30px;
+            width: 120px;
+            height: 20px;
 
         }
 
@@ -550,45 +555,48 @@ footer {
             font-weight: 300;
             font-size: 14px;
             color: #4F5665;
-            width: 74px;
-            height: 30px;
+            width: 120px;
+            height: 5px;
 
         }
     }
 
-    .post3 {
+    .question-list-2 {
         display: flex;
         flex-direction: column;
+        margin-right: 40px;
 
         h1 {
             font-size: 16px;
-            width: 71px;
-            height: 30px;
+            width: 150px;
+            height: 20px;
         }
 
         h4 {
             font-weight: 300;
             font-size: 14px;
             color: #4F5665;
-            width: 74px;
-            height: 30px;
+            width: 150px;
+            height: 5px;
         }
     }
 
-    .post3 {
+    .question-list-3 {
+        
         display: flex;
         flex-direction: column;
+
         h1 {
             font-size: 16px;
-            width: 71px;
-            height: 30px;
+            width: 150px;
+            height: 20px;
         }
         h4 {
             font-weight: 300;
             font-size: 14px;
             color: #4F5665;
-            width: 74px;
-            height: 30px;
+            width: 150px;
+            height: 5px;
         }
     }
 }
